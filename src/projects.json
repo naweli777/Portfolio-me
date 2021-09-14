@@ -1,0 +1,32 @@
+
+    [
+        {
+            "name":"Covid-19 Tracker",
+            "description":"A covid-19 tracker to show data of people affected by it according to country.",
+            "createdAt":"April 19",
+            "languages":["React.js", "Material UI","Chart.js","Counter.Js"],
+            "url":"https://github.com/naweli777/Covid-Tracker",
+             "deployed":"https://naweli777.github.io/Covid-Tracker/",
+            "id":1
+
+        },
+        {
+            "name":"Notice Board",
+            "description":"A notice board adding system,where you can add notice and delete it. One can check it according to date",
+            "createdAt":"May 31",
+            "languages":["React.js", "Material UI","Node.js","Express.js","Postgresql","Sequlize"],
+            "url":"https://github.com/naweli777/Notice-Board",
+            "id":2
+
+        },
+        {
+            "name":"Todo",
+            "description":"A mini journal",
+            "createdAt":"10 Aug",
+            "languages":["React.js","Node.js","Express.js"],
+            "url":"https://github.com/naweli777/Todo.git",
+            "deployed":"https://612a523900da936082e52765--quizzical-elion-566c4c.netlify.app/",
+            "id":3
+
+        }
+    ]

@@ -57,7 +57,7 @@ export default function Projects() {
       })
       .then((result) => {
         setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
-        console.log(result);
+        console.log({result});
       });
   }
 
@@ -76,7 +76,7 @@ export default function Projects() {
       <Button
         text={"More Projects"}
         className="project-button"
-        href="https://github.com/ashutosh1919"
+        href="https://github.com/naweli777"
         newTab={true}
       />
     </div>

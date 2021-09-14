@@ -6,9 +6,11 @@ import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+// import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
+import ProjectsData from "../../../src/projects.json";
+
 
 class Projects extends Component {
   render() {
@@ -44,14 +46,14 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+          {ProjectsData.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
         <Button
           text={"More Projects"}
           className="project-button"
-          href="https://github.com/ashutosh1919"
+          href="https://github.com/naweli777"
           newTab={true}
           theme={theme}
         />
