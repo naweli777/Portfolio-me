@@ -75,7 +75,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fab fa-quora", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#b92b27", // Reference https://simpleicons.org/?q=facebook
   },
-
 ];
 
 const skills = {
@@ -148,7 +147,7 @@ const skills = {
         },
       ],
     },
-   
+
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -226,7 +225,6 @@ const competitiveSites = {
       },
       profileLink: "https://auth.geeksforgeeks.org/user/naweliverma7/profile",
     },
-    
   ],
 };
 
@@ -259,7 +257,6 @@ const certifications = {
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
-    
   ],
 };
 
@@ -281,7 +278,7 @@ const experience = {
           logo_path: "propertyloop.svg",
           duration: "Sep 2021 - PRESENT",
           description:
-            "I am working as a FullStack Engineer.The product involves development of a firsr letting platoform.",
+            "I am working as a FullStack Engineer.The product involves development of a first letting platoform.",
           color: "#0879bf",
         },
         {
@@ -294,7 +291,6 @@ const experience = {
             "I am working as a Software Developer Engineer. The product involves development of a platoform for education, mentorship, counselling and etc. ",
           color: "#0879bf",
         },
-     
       ],
     },
     {
@@ -314,8 +310,7 @@ const experience = {
         {
           title: "UI-UX Designer",
           company: "Apna Insure",
-          company_url:
-            "https://www.apnainsure.com/",
+          company_url: "https://www.apnainsure.com/",
           logo_path: "apnainsure.png",
           duration: "Sept 2019 - Sept 2020",
           location: "Sept 2019 - Sept 2020",
@@ -350,7 +345,6 @@ const experience = {
             "A intiative by Facebook to push and support women in technology",
           color: "#D83B01",
         },
-        
       ],
     },
   ],
@@ -381,8 +375,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Laheriasarai, Balbhadrapur, Darbhanga",
+    subtitle: "Laheriasarai, Balbhadrapur, Darbhanga",
     avatar_image_path: "address_image.svg",
     // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
