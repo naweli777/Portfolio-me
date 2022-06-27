@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Naweli.V",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who always thrives to work on end to end products. I believe in building product which create impacts.",
   og: {
     title: "Naweli.V",
     type: "website",
@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Naweli Verma",
   logo_name: "Naweli.V",
-  nickname: "nimo",
+  nickname: "Ping me for freelancing",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1RsCWirxRzGXLIx33dBt7s0QDQYcrar_m/view?usp=sharing",
+    "A passionate individual who always thrives to work on end to end products. I believe in building product which create impacts.",
+
+  resumeLink: "",
   portfolio_repository: "https://github.com/naweli777",
 };
 
@@ -42,29 +42,47 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "https://www.youtube.com/channel/UCodbtrw6EYY8hilHt0eM-KQ",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Gmail",
-    link: "mailto:naweliverma7@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
+  // {
+  //   name: "YouTube",
+  //   link: "https://www.youtube.com/channel/UCodbtrw6EYY8hilHt0eM-KQ",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
+  // {
+  //   name: "Gmail",
+  //   link: "mailto:naweliverma31@gmail.com",
+  //   fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  // },
   {
     name: "Dribble",
     link: "https://dribbble.com/naweli_verma7",
     fontAwesomeIcon: "fas fa-basketball-ball", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=twitter
   },
+  // {
+  //   name: "Quora",
+  //   link: "https://www.quora.com/profile/Naweli-Verma-1",
+  //   fontAwesomeIcon: "fab fa-quora", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#b92b27", // Reference https://simpleicons.org/?q=facebook
+  // },
   {
-    name: "Quora",
-    link: "https://www.quora.com/profile/Naweli-Verma-1",
-    fontAwesomeIcon: "fab fa-quora", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#b92b27", // Reference https://simpleicons.org/?q=facebook
+    name: "Behance",
+    link: "https://www.behance.net/naweliverma",
+    fontAwesomeIcon: "fab fa-behance", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#053eff", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Dev",
+    link: "https://dev.to/naweli_verma",
+    fontAwesomeIcon: "fab fa-dev", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=facebook
+  },
+  {
+    name: "Dev",
+    link: "https://twitter.com/naweli_verma",
+    fontAwesomeIcon: "fab fa-twitter", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#26a7de", // Reference https://simpleicons.org/?q=facebook
   },
 ];
 
@@ -74,9 +92,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing responsive web apps",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive products frontend using ReactJs-Redux",
+        "⚡ Testing the edge cases of it.",
+        "⚡ Creating application backend in Node, Express & Kotlin",
       ],
       softwareSkills: [
         {
@@ -123,15 +141,15 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
           style: {
-            color: "#CB3837",
+            color: "#00758f",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "React-query",
+          fontAwesomeClassname: "simple-icons:React-Query",
           style: {
             color: "#2C8EBB",
           },
@@ -190,7 +208,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/naweliverma31",
+      profileLink: "https://www.hackerrank.com/naweliverma7",
     },
     {
       siteName: "Codechef",
@@ -208,14 +226,14 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/naweliverma31",
     },
-    {
-      siteName: "GeeksForGeeks",
-      iconifyClassname: "simple-icons:geeksforgeeks",
-      style: {
-        color: "#009900",
-      },
-      profileLink: "https://auth.geeksforgeeks.org/user/naweliverma7/profile",
-    },
+    // {
+    //   siteName: "GeeksForGeeks",
+    //   iconifyClassname: "simple-icons:geeksforgeeks",
+    //   style: {
+    //     color: "#009900",
+    //   },
+    //   profileLink: "https://auth.geeksforgeeks.org/user/naweliverma7/profile",
+    // },
   ],
 };
 
@@ -228,9 +246,9 @@ const degrees = {
       alt_name: "RGPV Bhopal",
       duration: "2017 - 2021",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ I have studied software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Full Stack Development.",
-        "⚡ I have done hackathons and worked on live projects",
+        "⚡ I have partcipated in hackathons like Smart India Hackathon and worked on live projects",
       ],
       website_link: "https://www.rgpv.ac.in",
     },
@@ -243,8 +261,8 @@ const certifications = {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -256,7 +274,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I am working as a full-time SDE-1 with an edTech startup.I have worked with an evolving startups as Frontend Developer, Designer and Software Architect. I have also worked with on some group live projects. I love organising events and that is why I am also involved with many local developer communities like Google developer Group - Bhopal and #techByHer a intiative by Facebook Developer Circle.",
+    "I am a Software Engineer, I have worked with great startups as a designer and developer in the field of Real-state, edTech, Fintech. I am also a community person and I am vey much into local developer and enterpreunerial community.  ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -267,9 +285,9 @@ const experience = {
           company: "PropertyLoop",
           company_url: "https://launch.propertyloop.co.uk/",
           logo_path: "propertyloop.svg",
-          duration: "Sep 2021 - PRESENT",
+          // duration: "Sep 2021 - PRESENT",
           description:
-            "I am working as a FullStack Engineer.The product involves development of a first letting platoform.",
+            "I worked here as a FullStack Engineer.The product involves development of a first letting platform without the agent and broker in UK",
           color: "#0879bf",
         },
         {
@@ -277,9 +295,9 @@ const experience = {
           company: "Stride Ahead",
           company_url: "https://strideahead.in/",
           logo_path: "StrideAheadLogo.png",
-          duration: "Aug 2021 - Sep 2021",
+          // duration: "Aug 2021 - Sep 2021",
           description:
-            "I am working as a Software Developer Engineer. The product involves development of a platoform for education, mentorship, counselling and etc. ",
+            "I worked here as a Software Developer Engineer. The product involves development of a platform for education, mentorship, counselling and etc. ",
           color: "#0879bf",
         },
       ],
@@ -292,8 +310,8 @@ const experience = {
           company: "Apna Insure",
           company_url: "https://www.apnainsure.com/",
           logo_path: "apnainsure.png",
-          duration: "Sept 2019 - Sept 2020",
-          location: "Bhopal, Madhya Pradesh",
+          // duration: "Sept 2019 - Sept 2020",
+          // location: "Bhopal, Madhya Pradesh",
           description:
             "I worked as a frontend developer, I worked on technologies such as React.js, Node.Js, MongoDB",
           color: "#ee3c26",
@@ -303,8 +321,8 @@ const experience = {
           company: "Apna Insure",
           company_url: "https://www.apnainsure.com/",
           logo_path: "apnainsure.png",
-          duration: "Sept 2019 - Sept 2020",
-          location: "Sept 2019 - Sept 2020",
+          // duration: "Sept 2019 - Sept 2020",
+          // location: "Sept 2019 - Sept 2020",
           description:
             "This is financial Solution Company. I have made the wireframes, flows of the product. I designed the logo and other graphics",
           color: "#0071C5",
@@ -345,7 +363,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create web applications ReactJs, Pure JavaScript and deploy using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -353,26 +371,26 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "me.png",
+    profile_image_path: "vector.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Frontend,Backend, React, Web developemnt, Web Designing etc",
+      "Need any help in your product, whether it is about any type of designing, developing, content-writing, promoting. You can count on me!",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://www.quora.com/profile/Naweli-Verma-1",
+    link: "https://dev.to/naweli_verma/revise-and-read-reactjs-with-me-5523",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Laheriasarai, Balbhadrapur, Darbhanga",
+    title: "Thank you",
+    subtitle: "I am open for freelancing",
     avatar_image_path: "address_image.svg",
-    // location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "mailto:naweliverma31@gmail.com",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 xxxxxxxx",
+    title: "Happy Growing",
+    subtitle: "Create impact for better",
   },
 };
 

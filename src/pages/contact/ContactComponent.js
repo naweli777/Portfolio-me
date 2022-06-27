@@ -45,12 +45,12 @@ class Contact extends Component {
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
-                  <Button
+                  {/* <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text="I have a freelance project for you."
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
