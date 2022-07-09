@@ -274,7 +274,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I am a Software Engineer, I have worked with great startups as a designer and developer in the field of Real-state, edTech, Fintech. I am also a community person and I am vey much into local developer and enterpreunerial community.  ",
+    "I am a Software Engineer, I have worked with great startups as a designer and developer in the field of Real-state, edTech, Fintech. I am also a community person and I am very much into local developer and enterpreunerial community.  ",
   header_image_path: "experience.svg",
   sections: [
     {
